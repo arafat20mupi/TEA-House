@@ -56,7 +56,7 @@
     <main class="container mx-auto">
         <!-- card section  -->
         <section class="mt-24">
-            <div class="text-center">
+            <div class="text-center px-10">
                 <h2 class="text-5xl font-extrabold text-black">Our Featured Products</h2>
                 <p class="max-w-screen-md mx-auto my-5 font-medium">There are many variations of passages of available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
             </div>
@@ -106,7 +106,7 @@
         </section>
         <!-- Featured section   -->
         <section class=""> 
-            <div class="hero px-24 mt-24">
+            <div class="hero px-24 mt-14 lg:mt-24">
                 <div class="lg:gap-12 hero-content flex-col lg:flex-row">
                   <div class=" gap-5 flex-1 grid grid-cols-1 lg:grid-cols-2">
                     <div class="bg-slate-200 h-36 rounded-xl"></div>
@@ -164,7 +164,7 @@
         <section class="mt-24">
           <div class="text-center">
               <h2 class="text-5xl font-extrabold text-black">News & Events</h2>
-              <p class="max-w-screen-md mx-auto my-5 font-medium">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+              <p class="lg:max-w-screen-md mx-auto my-5 px-6 font-medium">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
           </div>
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-24  gap-6 ">
               <!-- card 1 -->
@@ -205,10 +205,56 @@
               </div>
           </div>
       </section>
-
     </main>
-    <footer>
-
+    <!-- footer section  -->
+    <footer class="px-8 lg:px-48 py-11 space-y-12 bg-gradient-to-r from-[#0000001a] to-[#ff89381a]">
+      <div class="flex justify-between">
+        <div class="">
+          <img src="./images/cup.png" alt="">
+        </div>
+        <div class="flex">
+          <div class="px-10 pt-3 text-[#494949] font-semibold text-xl">Ready to get strated?</div>
+          <button class="bg-gradient-to-r from-[#FF8938] to-[#F00] text-white rounded-lg text-xl font-bold px-6 py-4">Get Started</button>
+        </div>
+      </div>
+      <div class="footer  text-base-content">
+        <nav>
+          <header class="footer-title text-2xl font-semibold">Quick Links</header> 
+          <a class="link link-hover">Home</a>
+          <a class="link link-hover">About Us</a>
+          <a class="link link-hover">Insurance</a>
+          <a class="link link-hover">Privacy Policy</a>
+        </nav> 
+        <nav>
+          <header class="footer-title text-2xl font-semibold">Our Service</header> 
+          <a class="link link-hover">Life Insurance</a>
+          <a class="link link-hover">Car Insurance</a>
+          <a class="link link-hover">Health Insurance</a>
+          <a class="link link-hover">House Insurance</a>
+        </nav> 
+        <nav>
+          <header class="footer-title text-2xl font-semibold">Help</header> 
+          <a class="link link-hover">FAQs</a>
+          <a class="link link-hover">Contact Us</a>
+        </nav> 
+        <form>
+          <header class="footer-title text-2xl font-semibold text-black">Subscribe to our <br> newsletter</header> 
+          <fieldset class="form-control w-80"> 
+            <div class="flex py-4 join gap-6">
+              <input type="text" placeholder="username@site.com" class=" bg-transparent text-[#494949] border-b border-solid border-black" /> 
+              <p class="font-bold px-1 bg-red-400 rounded-full">></p>
+            </div>
+            <div class="flex space-x-5 p-4">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <div class="text-center">
+        <p>© 2027 UIDesign.to - All rights reserved.</p>
+      </div>
     </footer>
 </body>
 </html>
